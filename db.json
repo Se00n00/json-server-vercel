@@ -7,7 +7,7 @@
     {"type": "Status", "content": 100},
     {"type": "Guardrail", "content": 1},
     {"type": "Status", "content": 20},
-    {"type": "Redirection", "content": {"redirection_str": "What specific issue are you facing with the Gaurd_Index that needs assistance?", "gaurdrail_index": " - the gaurd_index provided by the user"}},
+    {"type": "Redirection", "content": {"redirection_str": "What specific issue are you facing with the Gaurd_Index that needs assistance?", "gaurdrail_index": 1}},
     {"type": "Status", "content": 100},
     {"type": "Guardrail", "content": 3},
     {"type": "Status", "content": 20},
