@@ -1,9 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "errorgaurdrail": [
+    {"type": "Guardrail", "content": 0},
+    {"type": "Status", "content": 20},
+    {"type": "Conversation", "content": {"proceed2Orchestration": false, "conversation": "Hello! How can I assist you today?"}},
+    {"type": "Status", "content": 40},
+    {"type": "Status", "content": 100},
+    {"type": "Guardrail", "content": 1},
+    {"type": "Status", "content": 20},
+    {"type": "Redirection", "content": {"redirection_str": "What specific issue are you facing with the Gaurd_Index that needs assistance?", "gaurdrail_index": " - the gaurd_index provided by the user"}},
+    {"type": "Status", "content": 100},
+    {"type": "Guardrail", "content": 3},
+    {"type": "Status", "content": 20},
+    {"type": "Status", "content": 100},
+    {"type": "Guardrail", "content": 0},
+    {"type": "Status", "content": 20},
+    {"type": "Conversation", "content": {"proceed2Orchestration": true, "conversation": "Search for recent news articles, government notifications, and legal updates in India from 2025 regarding data privacy regulations or digital surveillance laws, including any developments related to the Digital Personal Data Protection Act (DPDP Act) implementation, new rules, amendments, or state-level regulations. Focus on authoritative sources such as the Ministry of Electronics and Information Technology (MeitY), Press Information Bureau (PIB), and reputable legal or policy news platforms."}},
+    {"type": "Status", "content": 40},
+    {"type": "Status", "content": 60},
+    {"type": "Error", "content": "Error code: 400 - {'error': {'message': 'No models provided', 'code': 400}, 'user_id': 'user_32JeRWKmPLFxB46vsmY84zBErtn'}"}
   ],
-  "comments": [
+  "cardoutput": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "profile": { "name": "typicode" }
+  "autonomustask": [
+    { "name": "typicode" }
+  ]
 }
